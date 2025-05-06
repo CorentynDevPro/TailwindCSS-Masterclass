@@ -2,9 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Container and Spacing</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            padding: 5rem;
+        }
+    </style>
 </head>
 <body>
+
+<!-- 01. Margin -->
+<!-- https://tailwindcss.com/docs/margin -->
+<h3>01. TailwindCSS Margins</h3>
+<p class="m-5 bg-yellow-100">Margin of 5 all around</p>
+<p class="mx-5 bg-yellow-200">Margin of 5 on X axis</p>
+<p class="my-5 bg-yellow-300">Margin of 5 on Y axis</p>
+<p class="ml-5 bg-yellow-400">Margin of 5 on the left</p>
+<p class="mt-5 bg-yellow-500">Margin of 5 at the top</p>
+<p class="mr-5 bg-yellow-600">Margin of 5 on the right</p>
+<p class="mb-5 bg-yellow-700">Margin of 5 at the bottom</p>
+
+<br/>
+<hr/>
+<br/>
+
+<!-- 02. Arbitrary Spacing -->
+<!-- https://tailwindcss.com/docs/margin -->
+<h3>02. Arbitrary TailwindCSS Margins</h3>
+<p class="m-[40px] bg-yellow-100">Margin of 40 pixels all around</p>
+<p class="ml-[40px] bg-yellow-200">Margin of 40 pixels on the left</p>
+<p class="mr-[40px] bg-yellow-300">Margin of 40 pixels on the right</p>
+<p class="my-[40px] bg-yellow-400">Margin of 40 pixels on Y axis</p>
+<p class="mx-[40px] bg-yellow-500">Margin of 40 pixels on X axis</p>
+<p class="mb-[40px] bg-yellow-600">Margin of 40 pixels at the bottom</p>
+
+<br/>
+<hr/>
+<br/>
+
+<!-- 03. Padding -->
+<!-- https://tailwindcss.com/docs/padding -->
+<h3>03. TailwindCSS Paddings</h3>
+<p class="p-5 bg-yellow-100">Padding of 5 all around</p>
+<p class="pl-5 bg-yellow-200">Padding of 5 on the left</p>
+<p class="pr-5 bg-yellow-300">Padding of 5 on the right</p>
+<p class="pt-5 bg-yellow-400">Padding of 5 at the top</p>
+<p class="pb-5 bg-yellow-500">Padding of 5 at the bottom</p>
+<p class="px-5 bg-yellow-600">Padding of 5 on X axis</p>
+<p class="py-5 bg-yellow-700">Padding of 5 on Y axis</p>
+<p class="pl-[40px] bg-yellow-800">Padding of 40 pixels on the left</p>
+
+<br/>
+<hr/>
+<br/>
+
+<!-- 04. Space Between X -->
+<!-- https://tailwindcss.com/docs/space -->
+<h3>04. TailwindCSS Space Between X</h3>
+<div class="flex flex-row space-x-5">
+    <div class="p-3 bg-teal-100">01</div>
+    <div class="p-3 bg-teal-200">02</div>
+    <div class="p-3 bg-teal-300">03</div>
+</div>
+
+<br/>
+<hr/>
+<br/>
+
+<!-- 05. Space Between Y -->
+<!-- https://tailwindcss.com/docs/space -->
+<h3>05. TailwindCSS Space Between Y</h3>
+<div class="flex flex-col space-y-5">
+    <div class="p-3 bg-teal-100">01</div>
+    <div class="p-3 bg-teal-200">02</div>
+    <div class="p-3 bg-teal-300">03</div>
+</div>
+
+<br/>
+<hr/>
+<br/>
 
 </body>
 </html>
